@@ -8,7 +8,7 @@
       <property name="machineName">default</property>
       <property name="dockerContainers">
 		    home:
-		       buildImage: 
+		        buildImage: 
 		          dockerfileLocation: src/test/resources
 		          noCache: true
 		          remove: true
