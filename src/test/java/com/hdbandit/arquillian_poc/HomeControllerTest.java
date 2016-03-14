@@ -22,7 +22,7 @@ public class HomeControllerTest {
 	private static final String LINE_SEPARATOR = System.getProperty("line.separator");
 	
 	@Deployment(testable = false) 
-	public static JavaArchive createDeployment() {
+	public static JavaArchive createDeployment() { 
 		JavaArchive[] libs = Maven.resolver().loadPomFromFile("pom.xml").importRuntimeDependencies().resolve().withTransitivity().as(JavaArchive.class);
 
 	      JavaArchive jar = ShrinkWrap
