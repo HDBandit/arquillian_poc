@@ -46,6 +46,12 @@
   			<version>1.0.0.Alpha9</version>
   			<scope>test</scope>
   		</dependency>
+  		<dependency>
+			<groupId>org.arquillian.cube</groupId>
+			<artifactId>arquillian-cube-docker</artifactId>
+			<scope>test</scope>
+			<version>1.0.0.Alpha9</version>
+		</dependency>
   		 <dependency>
             <groupId>org.jboss.shrinkwrap.resolver</groupId>
             <artifactId>shrinkwrap-resolver-depchain</artifactId>
